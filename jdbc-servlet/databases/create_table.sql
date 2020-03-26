@@ -7,7 +7,9 @@ create table user (
     role_id bigint not null,
     username varchar(255) not null,
     password varchar(255) not null,
-    createddate timestamp NULL,
+    fullname varchar(255) not null,
+    status int not null,
+    createddate timestamp null,
     modfieddate timestamp null,
     createdby varchar(255) null,
     modifiedby varchar(255) null
@@ -40,7 +42,7 @@ create table role (
 	id bigint primary key not null auto_increment,
     name varchar(255) not null,
     code varchar(255) not null,
-    createddate timestamp NULL,
+    createddate timestamp null,
     modfieddate timestamp null,
     createdby varchar(255) null,
     modifiedby varchar(255) null
@@ -51,7 +53,7 @@ create table comment (
     content text null,
     user_id bigint not null,
     news_id bigint not null,
-    createddate timestamp NULL,
+    createddate timestamp null,
     modfieddate timestamp null,
     createdby varchar(255) null,
     modifiedby varchar(255) null    

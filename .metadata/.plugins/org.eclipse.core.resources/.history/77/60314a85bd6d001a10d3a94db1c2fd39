@@ -1,0 +1,6 @@
+use newsweb;
+
+insert into role (code, name) value ('admin', 'quản trị');
+insert into role (code, name) value ('user', 'người dùng');
+
+insert into user (role_id, )

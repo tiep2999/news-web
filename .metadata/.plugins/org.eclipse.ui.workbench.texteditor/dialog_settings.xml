@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="asset"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="Long"/>
+			<item value="long"/>
 			<item value="asset"/>
 			<item value="RequestDispatcher rd1 = request1.getRequestDispatcher(&quot;/views/admin/home.jsp&quot;);"/>
 			<item value="js"/>
@@ -16,6 +18,7 @@
 			<item value="css"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

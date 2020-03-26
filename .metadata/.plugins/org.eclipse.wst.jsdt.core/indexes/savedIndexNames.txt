@@ -1,8 +1,7 @@
-INDEX VERSION 1.4+D:\eclipse-workspace\jdbc-servlet\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-709177989.index
-3833039841.index
-2617512268.index
-3121425946.index
-2998298461.index
+INDEX VERSION 1.4+D:\github\news-web\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2850338691.index
+2033227728.index
 712226627.index
-292079062.index
+2331779411.index
+90976347.index
+3180251243.index
