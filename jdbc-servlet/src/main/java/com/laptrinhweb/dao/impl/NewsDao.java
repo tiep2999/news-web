@@ -38,6 +38,12 @@ public class NewsDao extends AbstractDAO<News> implements INewsDao {
 		String sql = "DELETE FROM news WHERE id =?";
 		update(sql, id);
 	}
+
+	@Override
+	public List<News> FindAll() {
+		String sql = "SELECT * FROM news";
+		return query(sql, new NewsMapper());
+	}
 	
 	
 	

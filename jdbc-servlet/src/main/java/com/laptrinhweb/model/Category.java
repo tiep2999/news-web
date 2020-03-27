@@ -1,6 +1,6 @@
 package com.laptrinhweb.model;
 
-public class Category extends AbstractModel{
+public class Category extends AbstractModel<Category>{
 	private String name;
 	private String code;
 	

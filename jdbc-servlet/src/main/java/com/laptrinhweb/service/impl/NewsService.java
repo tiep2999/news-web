@@ -44,4 +44,9 @@ public class NewsService implements INewsService {
 		newsDao.update(updateNews);
 		return newsDao.findOne(updateNews.getId());
 	}
+
+	@Override
+	public List<News> findAll() {
+		return newsDao.FindAll();
+	}
 }

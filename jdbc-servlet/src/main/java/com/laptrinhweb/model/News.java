@@ -1,6 +1,6 @@
 package com.laptrinhweb.model;
 
-public class News extends AbstractModel {
+public class News extends AbstractModel<News> {
 	private String title;
 	private String summary;
 	private String content;
